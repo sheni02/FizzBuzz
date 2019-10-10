@@ -63,7 +63,7 @@ public class FizzBuzz {
     }
 
     private boolean isFizzBuzz(int currentNumber) {
-        if (currentNumber % 15 == 0) {
+        if (this.isFizz(currentNumber) && this.isBuzz(currentNumber)) {
             return true;
         }
         return false;
