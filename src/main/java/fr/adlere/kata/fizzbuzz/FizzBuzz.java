@@ -36,9 +36,9 @@ public class FizzBuzz {
 
     /**
      * Print in the console the count from 1 to limit replacing :
-     * - the multiple of 3 and the numbers containing 3 by Fizz
-     * - the multiple of 5 and the numbers containing 5 by Buzz
-     * - The multiple of 3 and 5 by FizzBuzz
+     * - the multiples of 3 and the numbers containing 3 by Fizz
+     * - the multiples of 5 and the numbers containing 5 by Buzz
+     * - by FizzBuzz the the numbers which are multiples of 3 or containing 3 and in the same time multiples of 5 or containing 5.
      */
     public void printFizzBuzz() {
         IntStream.rangeClosed(1, limit)
